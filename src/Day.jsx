@@ -30,7 +30,7 @@ const [color, setColor] = useState(index === 0 ? '#dbd7d2' : '')
           </Typography>
           </Grid>
           <Grid item xs={6}>
-          <Typography variant="body2" sx={{fontWeight: 600, fontSize: 20}}>
+          <Typography  sx={{fontWeight: 600, fontSize: 20, color: 'gray'}}>
             {high}
             <br />
           </Typography>

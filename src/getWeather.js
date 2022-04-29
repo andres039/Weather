@@ -11,8 +11,8 @@ export const getWeather = async () => {
         const obj = {
           index,
           dt: dayName,
-          tempMin: cv.temp.min,
-          tempMax: cv.temp.max,
+          tempMin: (cv.temp.min).toFixed() + 'º',
+          tempMax: cv.temp.max.toFixed() + 'º',
           icon: cv.weather[0].icon,
           description: cv.weather[0].description
         };
